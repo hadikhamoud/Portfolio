@@ -28,6 +28,7 @@
 
 .about-job-title {
   margin-top: 0;
+  font-weight: 700;
 }
 
 .page-title {
@@ -60,6 +61,25 @@
   color: var(--main_color);
   text-decoration: none;
 }
+.contacts {
+  margin-top: 0;
+  padding-left: 0;
+}
+.contacts li {
+  margin-right: 30px;
+  display: inline;
+  list-style: none;
+}
+
+.contacts li > a {
+  color: darkblue;
+  text-decoration: none;
+}
+
+.contacts li > a:visited {
+  color: darkblue;
+  text-decoration: none;
+}
 
 @media (max-width: 768px) {
   .page-title {
@@ -68,5 +88,10 @@
   }
   .about-paragraph {
     width: 80%;
+  }
+
+  .contacts li {
+    margin: 0;
+    display: inline-block;
   }
 }

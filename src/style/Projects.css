@@ -18,16 +18,21 @@
 .project-image {
   object-fit: cover;
   padding: 0;
+  height: 65%;
+}
+
+.project-content {
+  padding: 20px;
+  padding: 10px;
 }
 
 .project-title {
-  padding-left: 20px;
+  margin-top: 0;
+  font-size: 20px;
 }
 
 .project-technologies {
-  margin: 10px;
-  margin-bottom: 30px;
-  font-weight: bolder;
+  font-weight: 500;
 }
 
 .project-technology {
@@ -46,7 +51,7 @@
   padding: 0;
 }
 
-.project-link-logo {
+.project-repo-logo {
   position: absolute;
   top: -15px;
   left: -10px;
@@ -58,7 +63,7 @@
   height: 25px;
 }
 
-.project-repo-logo {
+.project-link-logo {
   position: absolute;
   top: -15px;
   left: 25px;
@@ -75,19 +80,18 @@
     width: 244px;
     height: 260px;
   }
-
-  .project-image {
-    height: 65%;
+  .project-content {
+    padding: 8px;
   }
+
   .project-title {
     margin-bottom: 13px;
   }
 
   .project-technology {
-    font-size: 12px;
+    font-size: 10px;
   }
   .project-technologies {
     margin: 0;
-    margin-left: 10px;
   }
 }
