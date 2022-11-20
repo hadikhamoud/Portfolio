@@ -10,6 +10,23 @@
   position: relative;
 }
 
+.Get-in-touch-button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin-top: 20px;
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  margin: 0;
+  top: 0;
+  right: 0;
+}
+
 .about-links {
   display: flex;
   flex-direction: row;

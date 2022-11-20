@@ -19,6 +19,12 @@ function About() {
       });
   }, []);
 
+  const scrollToContact = () => {
+    document
+      .getElementById("contact")
+      .scrollIntoView({ behavior: "smooth", block: "end" });
+  };
+
   function displayCountry() {
     if (isLebanon) {
       return (
@@ -89,6 +95,9 @@ function About() {
           </a>
         </li>
       </ul>
+      <button className="Get-in-touch-button" onClick={scrollToContact}>
+        Get in touch
+      </button>
       <h1 className="page-title">Hadi Hamoud</h1>
       <p className="about-job-title">Software Engineer</p>
       {displayCountry()}
