@@ -3,7 +3,7 @@ import { FaGithub } from "@react-icons/all-files/fa/FaGithub";
 import { FaLinkedin } from "@react-icons/all-files/fa/FaLinkedin";
 import { MdEmail } from "@react-icons/all-files/md/MdEmail";
 import { useState, useEffect } from "react";
-import Resume from "../documents/Hadi_Hamoud_Resume_2022.pdf";
+import Resume from "../documents/HamoudHadi_Resume_2022.pdf";
 
 const countryAPI = import.meta.env.VITE_COUNTRY_API_KEY;
 function About() {
