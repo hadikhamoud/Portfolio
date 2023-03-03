@@ -25,7 +25,7 @@ function About() {
       .scrollIntoView({ behavior: "smooth", block: "end" });
   };
 
-  function displayCountry() {
+  const displayCountry = () => {
     if (isLebanon) {
       return (
         <ul className="contacts">
@@ -70,7 +70,7 @@ function About() {
         </ul>
       );
     }
-  }
+  };
 
   return (
     <div className="about-section">
