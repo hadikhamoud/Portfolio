@@ -98,7 +98,7 @@ function About() {
       <button className="Get-in-touch-button" onClick={scrollToContact}>
         Get in touch
       </button>
-      <h1 className="page-title">Hadi Hamoud</h1>
+      <h1 className="page-title">Hadi K. Hamoud</h1>
       <p className="about-job-title">Software Engineer</p>
       {displayCountry()}
       <p className="about-paragraph">

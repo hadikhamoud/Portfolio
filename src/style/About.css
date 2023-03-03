@@ -20,10 +20,11 @@
   transition: all 0.3s ease-in-out;
   margin-top: 20px;
   position: absolute;
-  width: 100px;
+  width: 120px;
   height: 30px;
   margin: 0;
   top: 0;
+  font-family: var(--main_font);
   right: 0;
 }
 
