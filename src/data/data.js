@@ -5,9 +5,16 @@ import inorout from "../assets/inorout_snapshot.jpg";
 
 export const ListedEvents = [
   {
+    title: "Data Scientist Role",
+    year: "Today, 2023",
+    month: "March-",
+    description:
+      "I took on the role of Data Scientist at the Arab Center for Research and Policy Studies, in Doha, Qatar. I am under the Digital unit, led by Professor Fadi A. Zaraket.",
+  },
+  {
     title: "Future Plans with Dave",
-    year: "Today",
-    month: "Jun-",
+    year: "2022",
+    month: "Jul-Dec",
     description:
       "After finishing my Final year project (DAVE), my team and I were fortunate to win the Murex Software engineering award for best collaborative project. We are currently on track to publishing a paper on DAVE, and in the process of integrating the tool into the Epic EHR system. starting at the American University Of Beirut Medical Center(AUBMC), and then hopefully expanding to the EPIC medical extensions store.",
   },
