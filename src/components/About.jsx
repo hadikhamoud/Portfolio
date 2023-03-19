@@ -36,10 +36,10 @@ function About() {
           </li>
 
           <li className="contact">
-            <span className="contact-title">Beirut, Lebanon</span>
+            <span className="contact-title">Doha, Qatar</span>
           </li>
           <li className="contact">
-            <span className="contact-title">+961 70-0033229</span>
+            <span className="contact-title">+974 7102 3152</span>
           </li>
           <li className="contact">
             <a href={Resume} target="_blank" className="contact-title">
@@ -57,10 +57,10 @@ function About() {
             </a>
           </li>
           <li className="contact">
-            <span className="contact-title">Dubai, UAE</span>
+            <span className="contact-title">Doha, Qatar</span>
           </li>
           <li className="contact">
-            <span className="contact-title">+971 50-6151628</span>
+            <span className="contact-title">+974 7102 3152</span>
           </li>
           <li className="contact">
             <a href="#" className="contact-title">
@@ -76,7 +76,7 @@ function About() {
     <div className="about-section">
       <ul className="about-links">
         <li className="github">
-          <a href="https://www.github.com/hadihammoud2000" target="_blank">
+          <a href="https://www.github.com/hadikhamoud" target="_blank">
             <FaGithub />
           </a>
         </li>
@@ -105,9 +105,13 @@ function About() {
         I am a software engineer with a passion for building software and
         learning new technologies. My main interests in the beautiful fields of
         Computer Science are Natural Language Processing, Machine Learning,
-        Software Engineering, and Automated Systems. I am currently looking for
-        opportunities to work on projects that will help me grow as a software
-        engineer and as a person.
+        Software Engineering, and Automated Systems. I am currently working at
+        the{" "}
+        <a href="http://www.dohainstitute.org/">
+          Arab Center for research and policy studies
+        </a>
+        . I am looking for opportunities to work on projects that will help me
+        grow as a software engineer and as a person.
       </p>
     </div>
   );
