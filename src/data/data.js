@@ -16,7 +16,7 @@ export const ListedEvents = [
     year: "2022",
     month: "Jul-Dec",
     description:
-      "After finishing my Final year project (DAVE), my team and I were fortunate to win the Murex Software engineering award for best collaborative project. We are currently on track to publishing a paper on DAVE, and in the process of integrating the tool into the Epic EHR system. starting at the American University Of Beirut Medical Center(AUBMC), and then hopefully expanding to the EPIC medical extensions store.",
+      "After finishing my Final year project (DAVE), my team and I were fortunate to win the Murex Software engineering award for best collaborative project. A paper on the software has been approved by the European chapter of the Anthology of Computational Linguistics 2023 (EACL 2023). You can find the <a href='https://aclanthology.org/2023.eacl-demo.33/'>paper here</a>. We are currently in the process of integrating the tool into the Epic EHR system. starting at the American University Of Beirut Medical Center(AUBMC), and then hopefully expanding to the EPIC medical extensions store.",
   },
 
   {
@@ -57,6 +57,7 @@ export const ListedProjects = [
     img: dave,
     link: "https://www.davemr.com",
     repo_link: "https://www.github.com/hadihammoud2000/davemr",
+    other_link: "https://aclanthology.org/2023.eacl-demo.33/",
   },
   {
     title: "ShopiDetect",

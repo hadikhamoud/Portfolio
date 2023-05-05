@@ -3,7 +3,7 @@ import { FaGithub } from "@react-icons/all-files/fa/FaGithub";
 import { FaLinkedin } from "@react-icons/all-files/fa/FaLinkedin";
 import { MdEmail } from "@react-icons/all-files/md/MdEmail";
 import { useState, useEffect } from "react";
-import Resume from "../documents/HamoudHadi_Resume_2022.pdf";
+import Resume from "../documents/Hadi_Hamoud_Resume_QA.pdf";
 
 const countryAPI = import.meta.env.VITE_COUNTRY_API_KEY;
 function About() {
@@ -63,7 +63,7 @@ function About() {
             <span className="contact-title">+974 7102 3152</span>
           </li>
           <li className="contact">
-            <a href="#" className="contact-title">
+            <a href={Resume} target="_blank" className="contact-title">
               Resume
             </a>
           </li>

@@ -13,6 +13,7 @@ function Projects() {
             img={project["img"]}
             link={project["link"]}
             repo_link={project["repo_link"]}
+            other_link={project["other_link"]}
           />
         );
       })}

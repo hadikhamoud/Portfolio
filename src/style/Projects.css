@@ -75,6 +75,21 @@
   height: 25px;
 }
 
+.project-other-link-logo {
+  position: absolute;
+  top: -15px;
+  left: 60px;
+  background-color: white;
+  /* border-radius: 100%; */
+  color: white;
+  /* padding: 2px; */
+  width: 25px;
+  height: 25px;
+  margin-top: 2px;
+  /* border-color: black; */
+  /* border-style: solid; */
+}
+
 @media screen and (max-width: 560px) {
   .project-box {
     width: 244px;

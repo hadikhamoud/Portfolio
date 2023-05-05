@@ -12,7 +12,10 @@ export default function Event(props) {
           <h4 className="event-month">{month}</h4>
         </div>
 
-        <p className="event-description">{description}</p>
+        <p
+          className="event-description"
+          dangerouslySetInnerHTML={{ __html: description }}
+        ></p>
       </div>
     </div>
   );
