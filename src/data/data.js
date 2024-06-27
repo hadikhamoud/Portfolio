@@ -6,10 +6,10 @@ import inorout from "../assets/inorout_snapshot.jpg";
 export const ListedEvents = [
   {
     title: "Data Scientist Role",
-    year: "Today, 2023",
+    year: "Today, 2024",
     month: "March-",
     description:
-      "I took on the role of Data Scientist at the Arab Center for Research and Policy Studies, in Doha, Qatar. I am under the Digital unit, led by Professor Fadi A. Zaraket.",
+      "I took on the role of Data Scientist at the Arab Center for Research and Policy Studies, in Doha, Qatar. I am under the Digital unit, led by Professor Fadi A. Zaraket. Arabic NLP and Computational Linguistics",
   },
   {
     title: "Future Plans with Dave",
