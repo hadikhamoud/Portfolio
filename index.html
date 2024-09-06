@@ -1,13 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/mute.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hadi's Dev Portfolio</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/components/main.jsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css" type="text/css">
+</head>
+<body>
+  <div class="about-section">
+    <ul class="about-links">
+      <li class="github">
+        <a href="https://www.github.com/hadikhamoud" target="_blank">
+          <FaGithub />
+        </a>
+      </li>
+
+      <li class="linkedin">
+        <a
+          href="https://www.linkedin.com/in/hadi-h-aa4623114"
+          target="_blank"
+        >
+          <FaLinkedin />
+        </a>
+      </li>
+      <li class="mail">
+        <a href="mailto:hadikhamoud@gmail.com" target="_blank">
+          <MdEmail />
+        </a>
+      </li>
+    </ul>
+    <button class="Get-in-touch-button" onclick="scrollToContact()">
+      Get in touch
+    </button>
+    <h1 class="page-title">Hadi K. Hamoud</h1>
+    <p class="about-job-title">Software Engineer</p>
+    <ul class="contacts">
+      <li class="contact">
+        <a href="mailto:hadikhamoud@gmail.com" class="contact-title">
+          hadikhamoud@gmail.com
+        </a>
+      </li>
+      <li class="contact">
+        <span class="contact-title">Doha, Qatar</span>
+      </li>
+      <li class="contact">
+        <a href="Resume" target="_blank" class="contact-title">
+          Resume
+        </a>
+      </li>
+    </ul>
+     <p class="about-paragraph">
+      Software Engineer from Lebanon. Currently in the Arab Center for Research. ML, NLP, and CL for Arabic.
+      </p>
+      <div class="timeline">
+        <div class="timeline-content">
+          <h2 class="timeline-title">
+            <u>Timeline</u>
+          </h2>
+          <div class="event">
+            <div class="event-content">
+              <div class="event-title-and-date">
+                <span class="event-circle"> </span>
+                <span class="event-year">{year} </span>
+                <h4 class="event-title">{title}</h4>
+                <h4 class="event-month">{month}</h4>
+              </div>
+      
+              <p class="event-description">{description}</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="contact" id="contact">
+        <div class="contact-content">
+          <h2 class="contact-title">
+            <u>Contact</u>
+          </h2>
+          <form id="contactForm" onsubmit="return handleSubmit(event)" method="POST" target="_blank">
+            <div class="text-form">
+              <input
+                type="text"
+                placeholder="Name"
+                name="name"
+                required
+              />
+            </div>
+            <div class="text-form">
+              <input
+                type="email"
+                placeholder="Email"
+                name="email"
+                required
+              />
+            </div>
+            <div class="text-form">
+              <textarea
+                placeholder="Your Message"
+                name="message"
+                rows="5"
+                cols="50"
+                required
+              ></textarea>
+            </div>
+            <div class="form-submit">
+              <button type="submit">
+                Work with me
+              </button>
+            </div>
+          </form>
+          <div id="sentMessage" class="sent-message" style="display: none;">
+            <p>Thank you! I'll try to get back as soon as I can</p>
+          </div>
+        </div>
+      </div>
+
+  </div>
+
+  <script>
+    function scrollToContact() {
+      document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function handleSubmit(event) {
+      event.preventDefault();
+      // Here you would typically send the form data to a server
+      // For this example, we'll just show the sent message
+      document.getElementById('sentMessage').style.display = 'block';
+      document.getElementById('contactForm').reset();
+      return false;
+    }
+  </script>
+</body>
 </html>
