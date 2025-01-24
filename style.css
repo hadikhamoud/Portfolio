@@ -1,9 +1,8 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@300;400;500;700&display=swap');
 
 :root {
   
-  --main_font: "Ubuntu";
+  --main_font: "Geist Mono";
   --background-color: #ffffff;
   --text-color: #000000;
   --link-color: inherit;
@@ -308,10 +307,21 @@ body {
   gap: 1rem;
 }
 
+.event-title > a {
+  color: var(--link-color);
+  text-decoration: underline;
+}
+
+.event-title > a:visited {
+  color: var(--link-visited-color);
+  text-decoration: underline;
+}
+
 .event-title {
   font-size: 18px;
   margin: 0;
   padding: 0;
+  margin-top: 10px;
 }
 
 .event-year {
@@ -333,7 +343,10 @@ body {
 
 @media screen and (max-width: 768px) {
   .timeline-content {
-    width: 95%;
+    width: 97%;
+  }
+  .event-title {
+    font-size: 14px;
   }
 }
 
